@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
         <h1 className="website-name">Recipe Finder</h1>
-        <div className="wrapper">
+        <div className="search-bar-container">
             <SearchBar/>
         </div>
 

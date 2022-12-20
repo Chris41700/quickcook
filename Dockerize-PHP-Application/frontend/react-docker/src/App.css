@@ -1,23 +1,43 @@
+.App {
+    background-color: white;
+}
+
+body {
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .website-name {
     text-align: center;
     font-family: "Verdana Pro";
 }
 
-.wrapper {
+.search-bar-container {
     display: flex;
     justify-content: center;
     text-transform: capitalize;
     font-family: Verdana Pro;
+    background-color: white;
+}
+
+.wrapper {
+    width: 150px;
+    margin: auto;
 }
 
 .recipe-name {
     text-align: center;
+    letter-space: 2px;
 }
 
 .recipe-description {
-    padding: 0 200px;
+    padding: 0 450px;
     text-align: justify;
     justify-content: center;
+    margin-bottom: 20px;
+    letter-space: 2px;
+    word-space: 20px;
 }
 
 .recipe-ingredient {
@@ -28,7 +48,8 @@
 }
 
 .recipe-video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
 }

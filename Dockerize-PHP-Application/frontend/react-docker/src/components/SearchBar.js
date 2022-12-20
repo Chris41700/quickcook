@@ -48,7 +48,7 @@ function SearchBar() {
 
     return (
         <div>
-            <Autocomplete
+            <Autocomplete className = "wrapper"
                 id="recipe-select-demo"
                 sx={{width: 300}}
                 options={searchResults}
