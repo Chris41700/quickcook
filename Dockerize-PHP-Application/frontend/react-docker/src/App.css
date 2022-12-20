@@ -1,11 +1,15 @@
 .App {
     background-color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 425px;
+    border-radius: 20px;
 }
 
 body {
     background-color: lightgrey;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .website-name {
@@ -19,6 +23,7 @@ body {
     text-transform: capitalize;
     font-family: Verdana Pro;
     background-color: white;
+    margin: 0 50px;
 }
 
 .wrapper {
@@ -29,22 +34,33 @@ body {
 .recipe-name {
     text-align: center;
     letter-space: 2px;
+    padding-top: 30px;
+}
+
+.recipe-image {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
 }
 
 .recipe-description {
-    padding: 0 450px;
+    font-family: sans-serif;
+    font-style: italic;
     text-align: justify;
     justify-content: center;
-    margin-bottom: 20px;
     letter-space: 2px;
-    word-space: 20px;
+    line-height: 50px;
 }
 
 .recipe-ingredient {
-    padding: 0 250px;
+    padding: 20px 250px;
     text-align: center;
     justify-content: center;
     list-style: none;
+    font-family: sans-serif;
+    font-style: italic;
+    line-height: 50px;
 }
 
 .recipe-video {

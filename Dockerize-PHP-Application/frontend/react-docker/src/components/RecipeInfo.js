@@ -15,6 +15,7 @@ function RecipeInfo(props) {
     return (
         <div>
             <h2 className="recipe-name" onClick={() => setSelectedRecipe(null)}>{selectedRecipe.strMeal}</h2>
+            <img className="recipe-image" src={selectedRecipe.strMealThumb} alt={selectedRecipe.strMealThumb}/>
             <p className="recipe-description">{selectedRecipe.strInstructions}</p>
             <ul className="recipe-ingredient">
                 {selectedRecipe.ingredients.map((ingredient) => (
