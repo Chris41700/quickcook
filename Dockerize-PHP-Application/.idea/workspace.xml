@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Added components">
+    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Added imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/components/RecipeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/components/RecipeInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/components/SearchBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,18 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Chris/recipe-finder/Dockerize-PHP-Application",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chris/recipe-finder/Dockerize-PHP-Application&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\recipe-finder\Dockerize-PHP-Application\frontend\react-docker\src\components" />
+      <recent name="C:\Users\Chris\recipe-finder\Dockerize-PHP-Application\frontend\react-docker\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +68,10 @@
       <option name="presentableId" value="Default" />
       <updated>1671508213025</updated>
       <workItem from="1671508215665" duration="2089000" />
-      <workItem from="1671523160528" duration="2578000" />
+      <workItem from="1671523160528" duration="2710000" />
+      <workItem from="1671526205625" duration="713000" />
+      <workItem from="1671527005789" duration="3095000" />
+      <workItem from="1671532016355" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1671523272624</created>
@@ -79,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671525047540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added imports">
+      <created>1671526067657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671526067657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +125,8 @@
     <MESSAGE value="Backend" />
     <MESSAGE value="Added React" />
     <MESSAGE value="Added components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added components" />
+    <MESSAGE value="Added imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

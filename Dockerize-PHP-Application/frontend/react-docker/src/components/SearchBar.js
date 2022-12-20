@@ -47,7 +47,7 @@ function SearchBar() {
     };
 
     return (
-        <>
+        <div>
             <Autocomplete
                 id="recipe-select-demo"
                 sx={{width: 300}}
@@ -81,6 +81,8 @@ function SearchBar() {
                 )}
             />
             <RecipeInfo selectedRecipe={selectedRecipe} setSelectedRecipe={setSelectedRecipe}/>
-        </>
+        </div>
     );
 }
+
+export default SearchBar;

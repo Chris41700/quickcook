@@ -10,24 +10,25 @@ function RecipeInfo(props) {
     }
 
     // Extract the playback ID from the strYoutube property
-    const playbackId = selectedRecipe.strYoutube.split('-')[1];
+    let playbackId = selectedRecipe.strYoutube.split('v=')[1];
 
     return (
         <div>
-            <h2 onClick={() => setSelectedRecipe(null)}>{selectedRecipe.strMeal}</h2>
-            <p>{selectedRecipe.strInstructions}</p>
-            <ul>
+            <h2 className="recipe-name" onClick={() => setSelectedRecipe(null)}>{selectedRecipe.strMeal}</h2>
+            <p className="recipe-description">{selectedRecipe.strInstructions}</p>
+            <ul className="recipe-ingredient">
                 {selectedRecipe.ingredients.map((ingredient) => (
                     <li key={ingredient}>{ingredient}</li>
                 ))}
             </ul>
             <iframe
+                className="recipe-video"
                 width="560"
                 height="315"
                 src={`https://www.youtube.com/embed/${playbackId}`}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
             ></iframe>
         </div>
     );
