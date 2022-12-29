@@ -1,18 +1,21 @@
 import React from 'react';
 
-function RecipeInfo(props) {
-    // Destructure the selectedRecipe and setSelectedRecipe props
-    const { selectedRecipe, setSelectedRecipe } = props;
+// Function to parse the source URL and extract the website name
+function parseURL(url) {
+    const parser = document.createElement('a');
+    parser.href = url;
+    return parser.hostname;
+}
 
-    // If there is no selected recipe, return null
+function RecipeInfo(props) {
+    const {selectedRecipe, setSelectedRecipe} = props;
+
     if (!selectedRecipe) {
         return null;
     }
 
-    // Extract the playback ID from the strYoutube property
     let playbackId = selectedRecipe.strYoutube.split('v=')[1];
 
-    // Create an array of ingredients with their corresponding measurements
     const ingredientsWithMeasurements = [];
     for (let i = 1; i <= 20; i++) {
         const ingredient = selectedRecipe[`strIngredient${i}`];
@@ -24,11 +27,17 @@ function RecipeInfo(props) {
         }
     }
 
+    const instructions = selectedRecipe.strInstructions;
+    const steps = instructions.split('\n');
+    const stepsList = steps.map((step, index) => <li key={index}> {step}</li>);
+    const websiteName = parseURL(selectedRecipe.strSource).toLowerCase();
+
     return (
         <div>
             <h2 className="recipe-name" onClick={() => setSelectedRecipe(null)}>{selectedRecipe.strMeal}</h2>
-            <img className="recipe-image" src={selectedRecipe.strMealThumb} alt={selectedRecipe.strMeal} />
-            <p className="recipe-description">{selectedRecipe.strInstructions}</p>
+            <img className="recipe-image" src={selectedRecipe.strMealThumb} alt={selectedRecipe.strMeal}/>
+            <h3 className="recipe-label">{selectedRecipe.strMeal} Recipe</h3>
+            <ol className="recipe-steps">{stepsList}</ol>
             <h3 className="ingredients-label">Ingredients Used</h3>
             <ul className="recipe-ingredients">
                 {ingredientsWithMeasurements.map((ingredient) => (
@@ -44,7 +53,13 @@ function RecipeInfo(props) {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             ></iframe>
-            <p className="recipe-source">Source: {selectedRecipe.strSource}</p>
+            <p className="recipe-source">Source:
+                <a href={selectedRecipe.strSource}
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    {websiteName}
+                </a>
+            </p>
         </div>
     );
 }
