@@ -1,16 +1,21 @@
 .App {
     background-color: white;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     margin: 0 425px;
     border-radius: 20px;
 }
 
 body {
-    background-color: lightgrey;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/22/20/42/table-2879213_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 50px;
     padding-bottom: 80px;
+    min-height: 100%;
 }
+
 
 .website-name {
     text-align: center;
