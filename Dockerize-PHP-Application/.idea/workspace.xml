@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Add Ingredients Measurements">
+    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Remove button from search bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/components/RecipeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/components/RecipeInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/components/SearchBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <workItem from="1671538448205" duration="35000" />
       <workItem from="1671567518023" duration="4754000" />
       <workItem from="1671580284610" duration="2835000" />
-      <workItem from="1672323231409" duration="14048000" />
+      <workItem from="1672323231409" duration="15896000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1671523272624</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672327822055</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Remove button from search bar">
+      <created>1672341485950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672341485950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +166,8 @@
     <MESSAGE value="Added imports" />
     <MESSAGE value="CSS Changes" />
     <MESSAGE value="Add Ingredients Measurements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Ingredients Measurements" />
+    <MESSAGE value="Remove button from search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove button from search bar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
