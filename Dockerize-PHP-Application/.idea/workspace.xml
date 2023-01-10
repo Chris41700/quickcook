@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Can click anywhere on search bar to display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +49,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chris/recipe-finder/Dockerize-PHP-Application&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chris/PhpstormProjects/recipe-finder/Dockerize-PHP-Application&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,6 +84,9 @@
       <workItem from="1671580284610" duration="2835000" />
       <workItem from="1672323231409" duration="15935000" />
       <workItem from="1673296878783" duration="379000" />
+      <workItem from="1673299761704" duration="1278000" />
+      <workItem from="1673301506176" duration="4351000" />
+      <workItem from="1673332439788" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1671523272624</created>
