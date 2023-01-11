@@ -27,6 +27,7 @@ body {
     text-transform: capitalize;
     font-family: Verdana Pro;
     margin: 0 50px;
+    font-size: 24px;
 }
 
 .wrapper {

@@ -10,6 +10,7 @@ function SearchBar() {
     const [selectedRecipe, setSelectedRecipe] = useState(null);
 
     const handleSubmit = async (event) => {
+        event.preventDefault();
         const response = await fetch(`http://localhost/api/read.php?s=${searchTerm}`);
         const data = await response.json();
 
