@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Can click anywhere on search bar to display" />
+    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Can click anywhere on search bar to display">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +91,7 @@
       <workItem from="1673301506176" duration="4351000" />
       <workItem from="1673332439788" duration="609000" />
       <workItem from="1673383605318" duration="11136000" />
+      <workItem from="1674474440997" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1671523272624</created>

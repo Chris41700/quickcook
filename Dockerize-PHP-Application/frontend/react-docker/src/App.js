@@ -8,7 +8,6 @@ function App() {
             <div className="search-bar-container">
                 <SearchBar/>
             </div>
-
         </div>
     );
 }
