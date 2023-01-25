@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Can click anywhere on search bar to display">
+    <list default="true" id="74c1e4ef-f762-4343-86f8-10941e291e48" name="Changes" comment="Update CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/react-docker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/react-docker/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1673301506176" duration="4351000" />
       <workItem from="1673332439788" duration="609000" />
       <workItem from="1673383605318" duration="11136000" />
-      <workItem from="1674474440997" duration="3143000" />
+      <workItem from="1674474440997" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="Backend">
       <created>1671523272624</created>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673405474127</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update CSS">
+      <created>1674478293418</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674478293418</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,9 +218,9 @@
     <MESSAGE value="Add Ingredients Measurements" />
     <MESSAGE value="Remove button from search bar" />
     <MESSAGE value="Can click anywhere on search bar to display" />
-    <MESSAGE value="Update CSS" />
     <MESSAGE value="Website responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website responsive" />
+    <MESSAGE value="Update CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CSS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
