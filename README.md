@@ -13,3 +13,8 @@ A Dockerize PHP React application using [themealdb.com](https://www.themealdb.co
 
 ## Next Steps
 - [ ] Deploy full stack application onto AWS
+
+## Collaborators
+https://github.com/Chris41700 </br>
+https://github.com/christianliao820 </br>
+https://github.com/EstimadaE
