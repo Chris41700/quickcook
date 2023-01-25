@@ -9,7 +9,7 @@ A Dockerize PHP React application using [themealdb.com](https://www.themealdb.co
 - Run ``` docker-compose up ```
 
 ## Project Running
-https://user-images.githubusercontent.com/60550186/211950978-f25f564b-60e1-4645-a131-ef63d47ec7f7.mp4
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/60550186/214483442-c60bce27-cb43-4e3c-8a2e-41494c0bd310.gif)
 
 ## Next Steps
 - [ ] Deploy full stack application onto AWS
